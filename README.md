@@ -1,5 +1,9 @@
 # QuickFixAPI
 
+## BaseURL
+
+http://localhost:3000
+
 ### Cadastro
 
 POST /register <br/>
