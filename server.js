@@ -1,6 +1,7 @@
-const jsonServer = require("json-server");
-const auth = require("json-server-auth");
 const cors = require("cors");
+const jsonServer = require('json-server')
+const auth = require('json-server-auth')
+
 const port = process.env.PORT || 3001;
 
 const app = jsonServer.create();
@@ -10,6 +11,9 @@ app.db = router.db;
 
 const rules = auth.rewriter({
   users: 600,
+  adresses: 644,
+  contacts: 644,
+  profile: 644
 });
 
 app.use(cors());
