@@ -23,12 +23,57 @@ POST /signin
 
 Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
 
-### Adress 
+### Profile 
 
-POST /adress
-PUT  /adress/id
+GET  /profiles/id
+POST /profiles/id
+PUT  /profiles/id
 
-### Contact
+Retorno
+<code>
+  {
+	"profileId": 1,
+	"street": "Gen. Mário Tourinho",
+	"district": "Seminário",
+	"number": "1733",
+	"city": "Gramados",
+	"state": "PR",
+	"id": 1
+}
+</code>
 
-POST /contact
-PUT  /contact/id
+### Adresses 
+
+POST /adresses/id
+PUT  /adresses/id
+GET  /adresses/id
+
+<code>
+{
+	"profileId": 1,
+	"street": "Gen. Mário Tourinho",
+	"district": "Seminário",
+	"number": "1733",
+	"city": "Curitiba",
+	"state": "PR",
+	"id": 1
+}
+</code>
+
+### Contacts
+
+POST /contacts/id
+PUT  /contacts/id
+GET  /adresses/id
+
+<code>
+{
+	"id": 1,
+	"profileId": 1,
+	"phone": "(41) 99108-7575",
+	"whatsapp": "(41) 99108-7575",
+	"instagram": "kenzieacademybr",
+	"email": "kenzinho@mail.com",
+	"telegram": "(41) 99108-7575"
+}
+</code>
