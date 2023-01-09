@@ -30,7 +30,7 @@ POST /profiles/id
 PUT  /profiles/id
 
 Retorno
-<code>
+```
   {
 	"profileId": 1,
 	"street": "Gen. Mário Tourinho",
@@ -40,7 +40,7 @@ Retorno
 	"state": "PR",
 	"id": 1
 }
-</code>
+```
 
 ### Adresses 
 
@@ -48,7 +48,7 @@ POST /adresses/id
 PUT  /adresses/id
 GET  /adresses/id
 
-<code>
+```
 {
 	"profileId": 1,
 	"street": "Gen. Mário Tourinho",
@@ -58,7 +58,7 @@ GET  /adresses/id
 	"state": "PR",
 	"id": 1
 }
-</code>
+```
 
 ### Contacts
 
@@ -66,7 +66,7 @@ POST /contacts/id
 PUT  /contacts/id
 GET  /adresses/id
 
-<code>
+```
 {
 	"id": 1,
 	"profileId": 1,
@@ -76,4 +76,4 @@ GET  /adresses/id
 	"email": "kenzinho@mail.com",
 	"telegram": "(41) 99108-7575"
 }
-</code>
+```
