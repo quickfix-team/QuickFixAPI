@@ -25,8 +25,8 @@ Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usu
 
 ### Profile 
 
-GET  /profiles/id
-POST /profiles/id
+GET  /profiles/id <br/>
+POST /profiles/id <br/>
 PUT  /profiles/id
 
 Retorno
@@ -44,8 +44,8 @@ Retorno
 
 ### Adresses 
 
-POST /adresses/id
-PUT  /adresses/id
+POST /adresses/id <br/>
+PUT  /adresses/id <br/>
 GET  /adresses/id
 
 ```
@@ -62,8 +62,8 @@ GET  /adresses/id
 
 ### Contacts
 
-POST /contacts/id
-PUT  /contacts/id
+POST /contacts/id <br/>
+PUT  /contacts/id <br/>
 GET  /adresses/id
 
 ```
