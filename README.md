@@ -22,3 +22,13 @@ POST /login <br/>
 POST /signin
 
 Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
+
+### Adress 
+
+POST /adress
+PUT  /adress/id
+
+### Contact
+
+POST /contact
+PUT  /contact/id

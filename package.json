@@ -6,5 +6,8 @@
   },
   "devDependencies": {
     "@types/cors": "^2.8.13"
+  },
+  "scripts": {
+    "dev": "json-server-auth db.json -r routes.json"
   }
 }
