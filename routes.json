@@ -1,5 +1,5 @@
 {
   "users": 600,
-  "/adresses/:id": "/profiles/:id?_embed=adresses",
-  "/contacts/:id": "/profiles/:id?_embed=contacts"
+  "/adresses/:id": "/adresses/:id",
+  "/contacts/:id": "/contacts/:id"
 }
